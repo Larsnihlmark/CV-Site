@@ -1,6 +1,6 @@
-# Photography-Template
+# CV-Site
 
-Template design for individual photography users. easy to access text and picture changes in html
+Own use for my demo website
 
 # [Demo](https://larsnihlmark.github.io/Photography-Template/)
 
@@ -43,7 +43,7 @@ Example on text
 
 ## Deployment
 
-FTP-program and yuor own webbhotel service
+FTP-program and your own webbhotel service
 
 ## Built With
 
