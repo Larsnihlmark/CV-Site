@@ -447,6 +447,6 @@ footer {
 }
 @media screen and (max-width: 1000px) {
   #frontText {
-    white-space: pre-wrap; /* The width is 100%, when the viewport is 800px or smaller */
+    white-space: pre-wrap; 
   }
 }
