@@ -2,7 +2,7 @@
 
 Own use for my demo website
 
-# [Demo](https://larsnihlmark.github.io/Project-Cv/)
+# [Demo](https://larsn-cv.herokuapp.com/)
 
 ## Getting Started
 
