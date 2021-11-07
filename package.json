@@ -1,6 +1,6 @@
 {
-    "title": "MyPhoto",
-    "name": "startbootstrap-myfoto",
+    "title": "MyCv",
+    "name": "startbootstrap-mycv",
     "version": "5.0.9",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
