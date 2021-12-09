@@ -459,7 +459,7 @@ footer {
   opacity: 1;
 }
 .skillsIcon{
-  margin: 1rem;
+  margin: 5px;
   /* opacity: 1; */
   position: relative;
     display: flex;
@@ -522,7 +522,45 @@ footer {
       opacity: 1;
   }
 }
-
+.project-Info-Live{
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 1;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 1.2rem;
+  position: relative;
+  cursor: pointer;
+  z-index: 9999999;
+}
+.project-Live{
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 1;
+  color:rgb(139,35,72);
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.2rem;
+  position: relative;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.project-Live::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  background-color: #ff4d5a;
+  width: 100%;
+  bottom: 12px;
+  display: block;
+}
 
 
  
