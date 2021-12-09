@@ -294,7 +294,7 @@ footer {
   padding: 5rem 0;
 }
 #myImgFirst {
-  border-radius: 5px;
+  
   cursor: pointer;
   transition: 0.3s;
 }
@@ -450,6 +450,79 @@ footer {
     white-space: pre-wrap; 
   }
 }
-#Minus{
-  margin-right: -5px;
+
+#info{
+  padding-top: 10rem;
+  padding-bottom: 11rem;
 }
+.skillsIcon-fade-in{
+  opacity: 1;
+}
+.skillsIcon{
+  margin: 1rem;
+  /* opacity: 1; */
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 160px;
+    border: double 3px transparent;
+    border-image-slice: 1;
+    border-width: 3px;
+    background-image: linear-gradient(#1a1a1a, #1a1a1a),radial-gradient(circle at top left, #51a2e9, #ff4d5a);
+    border-radius: 10px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: transform 0.2s, opacity 1.2s;
+    overflow: hidden;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+.skillsIcon-name{
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1;
+  transition: all 0.2s;
+  letter-spacing: 1px;
+  color: cadetblue;
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+
+ 
