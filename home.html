@@ -30,7 +30,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">MyCv</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -70,12 +70,15 @@
   <section id="about" class="about-section text-center">
     <div class="container">
       <div class="row">
-        <!-- <img src="img_avatar.png" alt="Avatar" style="width:200px"> -->
-        <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">En ny dag att kunna lära sig</h2>
-          <p class="text-white-50">En ny dag är en möjlighet att lära sig.<br> 
-            Roligt att du vill kolla igenom min sida här berättar jag lite min egna project. <br>
-            Project-Cv är en av mina projekt där jag vill använda mig av bootstrap verktyg. Sidan är responsive till mobil.</p>
+          <div id="profile-img-content" class="col-lg-2">
+            <img class="profile-img" src="/img/profile.png" alt="Avatar" style="border-radius: 50%;">
+          </div>
+        <div class="col-lg-7 mx-auto">
+          <!-- <h2 class="text-white mb-4">Never stop</h2> -->
+          <p class="text-50" style="color: rgba(36, 204, 204, 0.74);">Jag är fullt kommitad till ett pilosiofin av att lära sig långt termint.<br> 
+            Jag har stor passoin inom Javascript, Css och allt inom webbutveckling. Den unika kombination av kreativitet, logic, teknik och att det finns alltid ny saker att ta in, 
+            Gör det hela spännande och passion för webutveckling växer.<br> När jag inte kodar, gillar jag att vara ute i naturen.<br>
+            </p>
         </div>
       </div>
       <img src="img/branches.png" class="img-fluid" alt="">
@@ -85,16 +88,16 @@
   <!-- Info Section -->
   <section id="info"> 
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-      <div id="Minus" class="col-lg-5">
-    <img id="myImgFirst"   src="img/WarmaneScrape.png" >
-    <!-- <iframe src="https://giphy.com/embed/xUA7bdpLxQhsSQdyog" class="img-fluid" width="550" height="380" frameBorder="0"  ></iframe> -->
-    <!-- modal -->
-        <!-- <div id="myModal" class="modal">
-          <span class="close">&times;</span>
-          <img class="modal-content" id="img01">
-          <div id="caption"></div>
-        </div> -->
-      </div>
+          <div  class="col-lg-5">
+            <img id="myImgFirst"   src="img/WarmaneScrape.png" >
+       
+                  <!-- modal -->
+                      <!-- <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                      </div> -->
+          </div>
       <div class="col-lg-5">
         <!-- <div class="social d-flex justify-content-center">
           <a class="mx-2">
@@ -103,14 +106,11 @@
           </a>
         </div> -->
         <div class=" text-center h-100 project">
-          <div class="project-text w-100 my-auto text-center text-lg-left">
-            <h4 class="text-white">Verktyg</h4>
-            <!-- <p class="mb-0 text-white-50">Verktygen jag använde var express, node.js och axios. har sätt upp cheerio för specifikt hämta data typer dock i detta projekt hämtar jag hela sidan.
-              Gjorde hämtning i backend för sedan hämta ut det till html filen.
-              Kolla in projektet i <a href="https://github.com/Larsnihlmark/Web-Scraper" target="blank"><h4>Github</h4></a></p> -->
-            <!-- <hr class="d-none d-lg-block mb-0 ml-0"> -->
-          </div>
-            <div class="social d-flex justify-content-center">
+          <!-- <div class="project-text w-100 my-auto text-center text-lg-left">
+            
+
+          </div> -->
+            <div class="social d-flex justify-content-center" style="padding-top: 4rem;">
               <a  class="skillsIcon">            
                 <img src="/img/JavascriptIcon.png" width="60px" >
                 <div class="skillsIcon-name">JavaScript</div>
@@ -129,7 +129,7 @@
               </a>
             </div>
             
-            <div class="social d-flex justify-content-center">
+            <div class="social d-flex justify-content-center" style="padding-top: 4rem;">
               <a  class="skillsIcon">            
                 <img src="/img/cssIcon.png" width="60px" >
                 <div class="skillsIcon-name">CSS</div>  
