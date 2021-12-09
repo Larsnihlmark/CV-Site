@@ -20,7 +20,7 @@
 
   <!-- Custom styles for this template -->
   
-  <link href="css/myCv.min.css" rel="stylesheet">
+  <!-- <link href="css/myCv.min.css" rel="stylesheet"> -->
   <link href="css/myCv.css" rel="stylesheet">
 
 </head>
@@ -41,10 +41,10 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Portfolio</a>
+            <a class="nav-link js-scroll-trigger" href="#info">Info</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#sale">Info</a>
+            <a class="nav-link js-scroll-trigger" href="#projects">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
@@ -78,11 +78,111 @@
       <img src="img/branches.png" class="img-fluid" alt="">
     </div>
   </section>
+
+  <!-- Info Section -->
+  <section id="info"> 
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+      <div id="Minus" class="col-lg-4">
+    <img id="myImgFirst" class="img-fluid"  src="img/WarmaneScrape.png" alt="">
+    <!-- <iframe src="https://giphy.com/embed/xUA7bdpLxQhsSQdyog" class="img-fluid" width="550" height="380" frameBorder="0"  ></iframe> -->
+    <!-- modal -->
+        <!-- <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div> -->
+      </div>
+      <div class="col-lg-4">
+        <!-- <div class="social d-flex justify-content-center">
+          <a class="mx-2">
+            <img src="/img/JavascriptIcon.png" >
+            <h5 class="text-black">JavaScript</h5>
+          </a>
+        </div> -->
+        <div class=" text-center h-100 project">
+          <div class="project-text w-100 my-auto text-center text-lg-left">
+            <h4 class="text-white">Verktyg</h4>
+            <!-- <p class="mb-0 text-white-50">Verktygen jag använde var express, node.js och axios. har sätt upp cheerio för specifikt hämta data typer dock i detta projekt hämtar jag hela sidan.
+              Gjorde hämtning i backend för sedan hämta ut det till html filen.
+              Kolla in projektet i <a href="https://github.com/Larsnihlmark/Web-Scraper" target="blank"><h4>Github</h4></a></p> -->
+            <!-- <hr class="d-none d-lg-block mb-0 ml-0"> -->
+          </div>
+            <div class="social d-flex justify-content-center">
+              <a  class="skillsIcon">            
+                <img src="/img/JavascriptIcon.png" width="60px" >
+                <div class="skillsIcon-name">JavaScript</div>
+              </a>
+              <a  class="skillsIcon">            
+                <img src="/img/html-icon.png" width="60px" >
+                <div class="skillsIcon-name">Html</div>
+              </a>
+              <a  class="skillsIcon">            
+                <img src="/img/reactJsIcon.png" width="60px" >
+                <div class="skillsIcon-name">React</div>  
+              </a>
+              <a  class="skillsIcon">            
+                <img src="/img/bootstrapIcon.png" width="100px" >
+                <div class="skillsIcon-name">Bootstrap</div>  
+              </a>
+            </div>
+            
+            <div class="social d-flex justify-content-center">
+              <a  class="skillsIcon">            
+                <img src="/img/cssIcon.png" width="60px" >
+                <div class="skillsIcon-name">CSS</div>  
+              </a>
+              <a  class="skillsIcon">            
+                <img src="/img/expressIcon.png" width="60px" >
+                <div class="skillsIcon-name">Express.js</div>  
+              </a>
+              <a  class="skillsIcon">            
+                <img src="/img/nodejsIcon.png" width="60px" >
+                <div class="skillsIcon-name">Node.js</div>  
+              </a>
+              <a  class="skillsIcon">            
+                <img src="/img/gitIcon.png" width="60px" >
+                <div class="skillsIcon-name">Git</div>  
+              </a>
+            </div>
+          <!--   <div class="d-flex h-100">
+              <h1>WELCOME</h1>
+            </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Two Row -->
+<!--     <div class="row justify-content-center no-gutters">
+      <div class="col-lg-6">
+    <img id="myImgSecond" class="img-fluid"  src="img/WarmaneOrginal.png" alt=""> -->
+    <!-- modal -->
+<!--         <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+        
+      </div>
+      <div class="col-lg-6 order-lg-first">
+        <div class="bg-black text-center h-100 project">
+          <div class="d-flex h-100">
+            <div class="project-text w-100 my-auto text-center text-lg-right">
+              <h4 class="text-white">Orginal</h4>
+              <p class="mb-0 text-white-50">Detta projekt var lärorikt hur man arbetade med server baserad information och sätta upp en port. Med detta projekt vill jag få en bredare kunskap inom node.js 
+                Här finns det mycket utveckling i projektet för att göra det mer komplett scrape av en sida<h2 style=color:rgb(6,121,96)></h2></a></p>
+              <hr class="d-none d-lg-block mb-0 mr-0">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </section>
   
   <!-- Projects Section -->
   <section id="projects" class="projects-section bg-light">
+    
     <div class="container">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleControls" class="carousel slide" data-interval="false">
         <div class="carousel-inner">
           <!-- First slide -->
             <div class="carousel-item active">
@@ -141,59 +241,7 @@
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5"></div>
 
-      <!-- Project One Row -->
-      <section id="sale"> 
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div id="Minus" class="col-lg-6">
-		  <img id="myImgFirst" class="img-fluid"  src="img/WarmaneScrape.png" alt="">
-		  <!-- modal -->
-          <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
-            <div id="caption"></div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Web-Scrape</h4>
-                <p class="mb-0 text-white-50">Verktygen jag använde var express, node.js och axios. har sätt upp cheerio för specifikt hämta data typer dock i detta projekt hämtar jag hela sidan.
-                  Gjorde hämtning i backend för sedan hämta ut det till html filen.
-                  Kolla in projektet i <a href="https://github.com/Larsnihlmark/Web-Scraper" target="blank"><h4>Github</h4></a></p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project Two Row -->
-      <div class="row justify-content-center no-gutters">
-        <div class="col-lg-6">
-		  <img id="myImgSecond" class="img-fluid"  src="img/WarmaneOrginal.png" alt="">
-		  <!-- modal -->
-          <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
-            <div id="caption"></div>
-          </div>
-          
-        </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Orginal</h4>
-                <p class="mb-0 text-white-50">Detta projekt var lärorikt hur man arbetade med server baserad information och sätta upp en port. Med detta projekt vill jag få en bredare kunskap inom node.js 
-                  Här finns det mycket utveckling i projektet för att göra det mer komplett scrape av en sida<h2 style=color:rgb(6,121,96)></h2></a></p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      
     </div>
   </section>
   
@@ -290,7 +338,7 @@
   <!-- Custom scripts for this template -->
   <script src="js/modal.js"></script>
   <script src="js/myCv.js"></script>
-  <script src="js/myCv.min.js"></script>
+  <!-- <script src="js/myCv.min.js"></script> -->
 
 </body>
 
