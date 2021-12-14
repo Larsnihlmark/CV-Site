@@ -161,7 +161,8 @@ h3{
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 11rem;
+  padding-bottom: 31rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
@@ -457,17 +458,17 @@ footer {
   }
 }
 
-#info{
+#skills{
   padding-top: 10rem;
-  padding-bottom: 11rem;
+  padding-bottom: 13rem;
 }
 .skillsIcon-fade-in{
   opacity: 1;
 }
 .skillsIcon{
-  margin: 5px;
+    margin: 5px;
   /* opacity: 1; */
-  position: relative;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -494,6 +495,11 @@ footer {
   transition: all 0.2s;
   letter-spacing: 1px;
   color: cadetblue;
+}
+@media screen and (max-width: 500px) {
+  .skillsIcon-name {
+    font-size: 9px 
+  }
 }
 
 @keyframes fadein {
@@ -555,7 +561,7 @@ footer {
   align-items: center;
   padding: 1rem 1.2rem;
   position: relative;
-  margin-top: 3rem;
+  margin-bottom: 3rem;
   cursor: pointer;
 }
 .project-Live::after {
@@ -573,6 +579,13 @@ footer {
   /* display: flex; */
   align-items: flex-start;
   flex-direction: row;
+}
+#canvas{
+  position: absolute;
+  width: 100%;
+  height: 76%;
+  background: linear-gradient(to bottom, hsl(0,0%,26%) -1%, ghostwhite);
+ 
 }
 
 
