@@ -1,13 +1,12 @@
 const canvas = document.getElementById("canvas1");
 const ctx = canvas.getContext('2d');
-/* canvas.setAttribute('width', '800');
-canvas.setAttribute('height', '1500'); */
+
 
 ctx.canvas.width = window.innerWidth;
 ctx.canvas.height = 2600;
 
 let particleArray;
-let color1 = ['#FF1461', '#18FF92', '#5A87FF', '#FBF38C'];
+
 function Particle(x, y, directionX, directionY, size, color){
     this.x = x;
     this.y = y;
