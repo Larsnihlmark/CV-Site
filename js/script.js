@@ -1,4 +1,4 @@
-const canvas = document.getElementById("canvas1");
+const canvas = document.getElementById("canvasParticle");
 const ctx = canvas.getContext('2d');
 
 

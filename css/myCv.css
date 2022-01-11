@@ -583,7 +583,7 @@ footer {
   align-items: flex-start;
   flex-direction: row;
 }
-#canvas1{
+#canvasParticle{
   position: absolute;
   width: 100%;
   /* height: 100vh */
