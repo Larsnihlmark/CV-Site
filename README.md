@@ -2,7 +2,7 @@
 
 Own use for my demo website
 
-# [Demo](https://larsn-cv.herokuapp.com/)
+# [Demo](https://larsnihlmark.herokuapp.com/)
 
 ## Getting Started
 
